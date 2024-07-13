@@ -1,0 +1,99 @@
+<!-- DECLARATION -->
+<!DOCTYPE html>
+<html>
+  <!-- HEAD TAG -->
+  <head>
+  <!-- STYLE TAG -->
+     <style>
+      #customers {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      #customers td,
+      customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+
+      #customers tr:nth-child(even) {
+        background-color: #fff;
+      }
+
+      #customers tr:hover {
+        background-color: #ddd;
+      }
+
+      #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04aa6d;
+        color: white;
+      }
+    </style>
+  </head>
+  <!-- BODY TAG -->
+  <body>
+    <!--<h2>Hero and Villians Table</h2>-->
+
+    <!-- THE WHOLE TABLE TAG -->
+    <table id="customers" border ="1">
+  <!-- TABLE TAG --> 
+    <thead>
+  <!-- ROW TAG -->    
+      <!--<tr>
+        <th colspan="5">Story Line Details</th>
+      </tr>-->
+
+      <tr>
+<!-- TABLE HEADER TAG -->        
+        <th>Name</th>
+        <th>Part</th>
+        <th>Location</th>
+        <th>Story</th>
+        <th>Alternative Story</th>
+      </tr>
+    </thead>
+  <!-- TABLE TAG -->  
+    <tbody>
+      <tr>
+<!-- TABLE DATA TAG -->        
+        <td>Rajah</td>
+        <td>Villian</td>
+        <td rowspan="3">Treetops</td> 
+        <td>Helps find the magical door</td>
+        <td>Accidently locks the door</td>
+      </tr>
+
+<!-- TABLE DATA TAG -->      
+        <td>Patches</td>
+        <td>Hero</td>
+        <td>Leads to the secret underwater caves</td>
+        <td>Guides everyone to the caves above water</td>
+      </tr>
+
+<!-- TABLE DATA TAG -->      
+        <td>Orsa</td>
+        <td>Hero</td>
+        <td>Discovers the ice crystals</td>
+        <td>Discovers the desert crystals</td>
+      </tr>
+    </tbody>
+
+<!-- TABLE FOOTER TAG -->    
+            <tfoot>
+                 <tr>
+
+<!-- TABLE DATA TAG -->                   
+                    <th>Name</th>
+                    <th>Part</th>
+                    <th>Location</th>
+                    <th>Story</th>
+                    <th>Alternative Story</th>
+                 </tr>
+            </tfoot>
+   </table>
+  </body>
+</html>
